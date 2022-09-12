@@ -1,24 +1,42 @@
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './NavBar';
+import Work from './Work';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Form from './Form'
+import Details from './Details';
+import NotFound from './NotFound';
+import Tools from './Tools';
+import About from './About';
+import AnimatedNav from './AnimatedNav';
+import Services from './Services';
+import Books from './Books';
+import Resume from './Resume';
+
 
 function App() {
   return (
+    <Router>
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AnimatedNav />
+      <NavBar />
+     <div className="content">
+      <Routes>
+      <Route exact path="/" element={<Work/>}></Route>
+      <Route exact path="/about" element={<About/>}></Route>
+      <Route exact path="/resume" element={<Resume/>}></Route>
+
+        <Route exact path="/tools" element={<Tools/>}></Route>
+        <Route exact path="/services" element={<Services/>}></Route>
+        <Route exact path="/books" element={<Books/>}></Route>
+
+
+        <Route path="/create" element={<Form/>}></Route>
+        <Route path="/blogs/:id" element={<Details/>}></Route>
+        <Route path='*' element={<NotFound />}>
+        </Route>
+      </Routes>
+     </div>
     </div>
+    </Router>
   );
 }
 

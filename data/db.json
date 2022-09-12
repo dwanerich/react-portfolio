@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "Decoded",
+      "body": "life, spirituality, self-discovery, music, poetry, business, craftsmanship, and society.",
+      "author": "sean carter",
+      "id": 1
+    },
+    {
+      "title": "More of Us",
+      "body": "1 Brick at a time dwane challenged himself to become the change he wanted to see in his lifetime by fully immersing himself into a mid-level tech career pivot.",
+      "author": "dwane rich",
+      "id": 2
+    },
+    {
+      "title": "The Tanning of America",
+      "body": "How Hip-Hop Created a Culture That Rewrote the Rules of the New Economy",
+      "author": "steve stoute",
+      "id": 3
+    }
+  ]
+}

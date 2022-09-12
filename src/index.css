@@ -1,13 +1,119 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.navbar {
+  color: whitesmoke;
+  font-size: x-large;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #48ee27;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #fff704;
+}
+.content {
+  max-width: 1600px;
+  margin: 40px auto;
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* blog previews / list */
+.preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  border-color: #25fd08;
+}
+.preview h2 {
+  font-size: 20px;
+  color: #25fd08;
+  margin-bottom: 8px;
+}
+
+.preview a{
+  text-decoration: none;
+}
+
+.details h2{
+  font-size: 20px;
+  color: #25fd08;
+  margin-bottom: 10px;
+}
+
+.details div {
+  margin: 20px 0;
+}
+
+.details button {
+  background: #25fd08;
+  color: #fafafa;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+/* new form styling */
+.form {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form label {
+  text-align: left;
+  display: block;
+}
+
+.form h2 {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 25px;
+}
+
+.form input, .form textarea, .form select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+
+.form button {
+  background: #ffff45;
+  color: #000000;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.container {
+  position: absolute;
+  height: 400px;
+  width: max-content;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+
+
+
 }
