@@ -37,19 +37,6 @@ export default function Work() {
 
           <div class="group relative">
             <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
-              <img src="img/twitter.png" alt="twitter logo" class="w-full h-full object-center object-cover" />
-            </div>
-            <h3 class="mt-6 text-sm text-gray-500">
-              <a href="http://main.d2vhgeq1d91gzo.amplifyapp.com/" target="_blank">
-                <span class="absolute inset-0"></span>
-                Twitter Clone
-              </a>
-            </h3>
-            <p class="text-base font-semibold text-gray-900">Exploring under the hood of Twitter and the components behind it all</p>
-          </div>
-
-          <div class="group relative">
-            <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
               <img src="img/greenlife.png" alt="plant app logo." class="w-full h-full object-center object-cover" />
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
@@ -63,6 +50,19 @@ export default function Work() {
 
           <div class="group relative">
             <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+              <img src="img/twitter.png" alt="twitter logo" class="w-full h-full object-center object-cover" />
+            </div>
+            <h3 class="mt-6 text-sm text-gray-500">
+              <a href="https://main.d22h85nejncktx.amplifyapp.com/" target="_blank">
+                <span class="absolute inset-0"></span>
+                Twitter Clone
+              </a>
+            </h3>
+            <p class="text-base font-semibold text-gray-900">Exploring under the hood of Twitter and the components behind it all</p>
+          </div>
+
+          <div class="group relative">
+            <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
               <img src="img/medley.png" alt="medicine app logo." class="w-full h-full object-center object-cover" />
             </div>
             <h3 class="mt-6 text-sm text-gray-500">
@@ -72,6 +72,19 @@ export default function Work() {
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-900">Medicine Management App</p>
+          </div>
+
+          <div class="group relative">
+            <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
+              <img src="img/googlehomepage.png" alt="google home page clone" class="w-full h-full object-center object-cover" />
+            </div>
+            <h3 class="mt-6 text-sm text-gray-500">
+              <a href="https://main.d2zqcwkinvrerb.amplifyapp.com/" target="_blank">
+                <span class="absolute inset-0"></span>
+                Google Home Page Clone
+              </a>
+            </h3>
+            <p class="text-base font-semibold text-gray-900">Google Home Page Clone</p>
           </div>
 
           <div class="group relative">
