@@ -8,6 +8,7 @@ export default function Books() {
 
   let readBooks = [
     "Learn to Program",
+    "Decoded",
     "The Four Agreements",
     "Clean Code",
     "The Richest Man in Babylon",
@@ -17,7 +18,8 @@ export default function Books() {
 
   let reading = [
     "Eloquent JavaScript",
-    "Cracking the Coding Interview"
+    "Cracking the Coding Interview",
+    "Zero to One"
   ]
   return (
     <div class="py-12 container">
