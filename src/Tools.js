@@ -7,7 +7,7 @@ import useFetch from './useFetch';
 
 export default function Tools() {
   return (
-    <div class="py-12 bg-gray-100">
+    <div class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
         <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl hover:text-gray-200">Languages - Tools - Frameworks</p>
@@ -121,7 +121,7 @@ export default function Tools() {
       </div>
       <br /> <br />
         <center>
-        <div class="bg-gray-100">
+        <div class="bg-gray-50">
         <p class="mt-2 text-xl leading-8 tracking-tight text-gray-900 sm:text-medium">
                 Let's Work Together, Get in touch!
                 </p>
@@ -139,7 +139,7 @@ export default function Tools() {
 
         </div>
 
-        <div class="flex items-center justify-center bg-gray-100">
+        <div class="flex items-center justify-center bg-gray-50">
       <a href="https://www.instagram.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="/img/ig-icon.png" width="50px" /></span></a>
       <a href="https://www.twitter.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span ><img src="img/twitter_icon.png" width="50px" /></span></a>
       <a href="https://www.linkedin.com/in/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="img/linkedin_icon.png" width="50px" /></span></a>
