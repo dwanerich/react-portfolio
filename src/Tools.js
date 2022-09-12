@@ -140,7 +140,7 @@ export default function Tools() {
         </div>
 
         <div class="flex items-center justify-center bg-gray-100">
-      <a href="https://www.instagram.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="img/ig_icon.webp" width="50px" /></span></a>
+      <a href="https://www.instagram.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="/img/ig-icon.png" width="50px" /></span></a>
       <a href="https://www.twitter.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span ><img src="img/twitter_icon.png" width="50px" /></span></a>
       <a href="https://www.linkedin.com/in/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="img/linkedin_icon.png" width="50px" /></span></a>
 
