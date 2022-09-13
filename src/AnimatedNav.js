@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 const AnimatedNav = () => {
   return (
 
-  <div id="myHeader">
+  <div id="myHeader" class="pl-6">
 
-<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class="h-8 w-auto sm:h-2 text-5xl font-bold">dwane richards</h1></Link> <br />
+<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class="h-8 w-auto sm:h-2 text-4xl font-bold hover:text-gray-200">dwane richards</h1></Link> <br />
 
-  <Link to={'/'}> <h2 alt="Dwane Richards" class='text-xl'> software engineer | creative director</h2> </Link>
+  <Link to={'/'}> <h2 alt="Dwane Richards" class='text-large'> software engineer | creative director</h2> </Link>
 
     <input type="checkbox" id="menyAvPaa" />
 
@@ -17,9 +17,9 @@ const AnimatedNav = () => {
             <div></div>
         </label>
 
-    <nav id="meny" className="navbar">
+    <nav id="meny" class="navbar">
 
-    <div className="links text-6xl">
+    <div className="links text-6xl text-right">
         <Link to={'/'}>Work</Link> <br />
         <Link to={'/about'}>About</Link> <br />
         <Link to={'/services'}>Services</Link> <br />
