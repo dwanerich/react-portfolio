@@ -5,9 +5,9 @@ const AnimatedNav = () => {
 
   <div id="myHeader" class="pl-6">
 
-<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class=" text-6xl font-bold hover:text-gray-200">dwane richards</h1></Link>
+<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class=" text-5xl font-bold hover:text-gray-200">dwane richards</h1></Link>
 
-  <Link to={'/'}> <h2 alt="Dwane Richards" class='text-xl'> software engineer | creative director</h2> </Link>
+  <Link to={'/'}> <h2 alt="Dwane Richards" class='text-l'> software engineer | creative director</h2> </Link>
 
     <input type="checkbox" id="menyAvPaa" />
 
@@ -19,7 +19,7 @@ const AnimatedNav = () => {
 
     <nav id="meny" class="navbar">
 
-    <div className="links text-5xl text-right">
+    <div className="links text-4xl text-right">
         <Link to={'/'}>Work</Link> <br />
         <Link to={'/about'}>About</Link> <br />
         <Link to={'/services'}>Services</Link> <br />
@@ -27,7 +27,7 @@ const AnimatedNav = () => {
         <a href='https://main.dwrvmr20l0ogs.amplifyapp.com/drums.html'>Interactive</a> <br />
         <a href='https://open.spotify.com/artist/6d2X2fOrEI5adbahA0Avxf' target="_blank">Sound</a> <br />
         <a href='https://main.dwrvmr20l0ogs.amplifyapp.com/visuals.html'>Visuals</a> <br />
-        <Link to={'/create'}>Leave A Comment</Link> <br />
+        <Link to={'/create'}>Leave Comment</Link> <br />
       </div>
     </nav>
 

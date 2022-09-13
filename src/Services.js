@@ -2,10 +2,10 @@ export default function Services() {
   return (
     <div className='container'>
 
-<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl hover:text-gray-200">services</p>
+<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl hover:text-gray-200">services</p> <br />
     <div class="grid grid-cols-4 gap-4">
 
-  <div className='centeredElement'>
+  <div>
     <h2 class='font-extrabold'>Software Engineering</h2>
     <p>React/Redux HTML, CSS, JavaScript Ruby on Rails Git & Github RESTFUL API</p>
   </div>
@@ -51,5 +51,6 @@ export default function Services() {
 
         </center>
     </div>
+
   )
 }
