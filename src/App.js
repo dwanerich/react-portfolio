@@ -1,4 +1,3 @@
-import NavBar from './NavBar';
 import Work from './Work';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Form from './Form'
@@ -17,7 +16,6 @@ function App() {
     <Router>
     <div className="App">
       <AnimatedNav />
-      <NavBar />
      <div className="content">
       <Routes>
       <Route exact path="/" element={<Work/>}></Route>

@@ -6,19 +6,19 @@ export default function Services() {
     <div class="grid grid-cols-4 gap-4">
 
   <div className='centeredElement'>
-    <h2>Software Engineering</h2>
+    <h2 class='font-extrabold'>Software Engineering</h2>
     <p>React/Redux HTML, CSS, JavaScript Ruby on Rails Git & Github RESTFUL API</p>
   </div>
   <div>
-    <h2>Digital Audio Recording</h2>
+    <h2 class='font-extrabold'>Digital Audio Recording</h2>
 <p>Logic Pro. MacBook Pro AKG Mic Beats by Dre Studio (Limited Edition)</p>
   </div>
   <div>
-    <h2>Design</h2>
+    <h2 class='font-extrabold'>Design</h2>
     <p>style, music & subculture. Graphic Design, Music, Street Style Architecture</p>
   </div>
   <div>
-    <h2>SEO</h2>
+    <h2 class='font-extrabold'>SEO</h2>
     <p>Search Engine Optimization & Google AdWords. Facebook Ads Google Analytics & Ad Words Newsletter Template Design</p>
   </div>
 </div>
