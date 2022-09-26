@@ -35,7 +35,7 @@ const About = () => {
           to architect solutions for users and businesses. As in life, as a designer, developer and cross-functional collaborator, he’s eager to learn, grow and share what he’s learned with others..</p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-            <a href="https://dwane-resume.tiiny.site/" target="_blank" class="flex w-full items-center justify-center rounded-md border border-transparent bg-green-500 px-8 py-3 text-base font-medium text-white hover:border-black hover:bg-transparent hover:text-black md:py-4 md:px-10 md:text-lg">resume</a>
+            <a href="https://drive.google.com/file/d/14ohYClY6DJ49wYWfLXj0gScS6xbWHMkN/view?usp=sharing" target="_blank" class="flex w-full items-center justify-center rounded-md border border-transparent bg-green-500 px-8 py-3 text-base font-medium text-white hover:border-black hover:bg-transparent hover:text-black md:py-4 md:px-10 md:text-lg">resume</a>
             </div>
 
           </div>
