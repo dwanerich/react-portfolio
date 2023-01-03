@@ -27,7 +27,7 @@ const AnimatedNav = () => {
         <a href='https://main.dwrvmr20l0ogs.amplifyapp.com/drums.html'>Interactive</a> <br />
         <a href='https://open.spotify.com/artist/6d2X2fOrEI5adbahA0Avxf' target="_blank">Sound</a> <br />
         <a href='https://main.dwrvmr20l0ogs.amplifyapp.com/visuals.html'>Visuals</a> <br />
-        <Link to={'/create'}>Leave Comment</Link> <br />
+        {/* <Link to={'/create'}>Leave Comment</Link> <br /> */}
       </div>
     </nav>
 

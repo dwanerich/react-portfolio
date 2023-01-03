@@ -16,10 +16,10 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="http://www.1bat.us">
                 <span class="absolute inset-0"></span>
-                Creative Agency
+                {/* Creative Agency */}
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">Web Development + Sound Design</p>
+            <p class="text-base font-semibold text-gray-900">Web Development + Sound Design Agency</p>
           </div>
 
           <div class="group relative">
@@ -29,11 +29,11 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="http://www.youtube.com/watch?v=NZQPWw1g9f4&t=1s" target="_blank">
                 <span class="absolute inset-0"></span>
-                CoverGram
+                {/* CoverGram */}
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-900">Album Cover App</p>
-          </div>
+          </div> 
 
           <div class="group relative">
             <div class="relative w-full h-80 bg-white rounded-lg overflow-hidden group-hover:opacity-75 sm:aspect-w-2 sm:aspect-h-1 sm:h-64 lg:aspect-w-1 lg:aspect-h-1">
@@ -42,7 +42,7 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="http://www.youtube.com/watch?v=I4PAbdwW49o" target="_blank">
                 <span class="absolute inset-0"></span>
-                Green Life
+
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-900">Plant Sharing App</p>
@@ -55,10 +55,10 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="https://main.d22h85nejncktx.amplifyapp.com/" target="_blank">
                 <span class="absolute inset-0"></span>
-                Twitter Clone
+                {/* Twitter Clone */}
               </a>
             </h3>
-            <p class="text-base font-semibold text-gray-900">Exploring under the hood of Twitter and the components behind it all</p>
+            <p class="text-base font-semibold text-gray-900">Twitter Clone</p>
           </div>
 
           <div class="group relative">
@@ -68,7 +68,7 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="http://www.youtube.com/watch?v=869TORh6s3I" target="_blank">
                 <span class="absolute inset-0"></span>
-                Medly
+                {/* Medly */}
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-900">Medicine Management App</p>
@@ -81,7 +81,7 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="https://main.d2zqcwkinvrerb.amplifyapp.com/" target="_blank">
                 <span class="absolute inset-0"></span>
-                Google Home Page Clone
+                {/* Google Home Page Clone */}
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-900">Google Home Page Clone</p>
@@ -94,7 +94,7 @@ export default function Work() {
             <h3 class="mt-6 text-sm text-gray-500">
               <a href="http://www.youtube.com/watch?v=e-IMtSUc8Ks" target="_blank">
                 <span class="absolute inset-0"></span>
-                Redemption
+                {/* Redemption */}
               </a>
             </h3>
             <p class="text-base font-semibold text-gray-900">Visual Ad for Fabric + Frequency</p>
