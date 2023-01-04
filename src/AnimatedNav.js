@@ -8,9 +8,9 @@ const AnimatedNav = () => {
 
   <div id="myHeader" class=".w-nav-button">
 
-<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class=" text-3xl font-bold hover:text-gray-200">Dwane Richards</h1></Link>
+<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class=" text-4xl font-bold hover:text-gray-200">Dwane Richards</h1></Link>
 
-  <Link to={'/'}> <h2 alt="Dwane Richards" class=' text-large text-gray-300'> FRONT END DEVELOPER</h2> </Link>
+  {/* <Link to={'/'}> <h2 alt="Dwane Richards" class=' text-sm text-yellow-500'> FRONT END DEVELOPER | DEVOPS ENGINEER</h2> </Link> */}
 
     <input type="checkbox" id="menyAvPaa" />
 
