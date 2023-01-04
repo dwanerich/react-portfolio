@@ -10,14 +10,13 @@ export default function Tools() {
     <div class="py-12 bg-gray-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
-        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl hover:text-gray-200">Languages - Tools - Frameworks</p>
+        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl hover:text-gray-200">Languages - Tools - Frameworks</p> <br />
       </div>
 
-        <div class="mt-10">
-          <dl class="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
+      <div class="grid grid-cols-4 gap-4">
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
                   <img src="img/jslogo.png" alt="" />
 
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -30,19 +29,7 @@ export default function Tools() {
 
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
-                  <img src="img/rubyonrails.png" alt="" />
-
-                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
-                    <path stroke-linecap="round" stroke-linejoin="round"  />
-                  </svg>
-                </div>
-                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Ruby on Rails</p>
-              </dt>
-            </div>
-            <div class="relative">
-              <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent hover:bg-black">
                   <img src="img/react.png" alt="" />
 
                   <svg class="h-6 w-6" xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -52,10 +39,21 @@ export default function Tools() {
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-900">React</p>
               </dt>
             </div>
-
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
+                  <img src="img/vue-js-logo.png" alt="" />
+
+                  <svg class="h-6 w-6" xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Vue</p>
+              </dt>
+            </div>
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
                   <img src="img/redux.png" alt="" />
 
                   <svg class="h-6 w-6" xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -64,13 +62,27 @@ export default function Tools() {
                 </div>
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Redux</p>
               </dt>
+              <br />
             </div>
 
 
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
-                  <img src="img/bootstrap.png" alt="" />
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
+                  <img src="img/circle-ci-logo.png" alt="" />
+
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round"  />
+                  </svg>
+                </div>
+                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Circle CI</p>
+              </dt>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
+                  <img src="img/bootstrap-logo.png" alt="" />
 
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round"/>
@@ -79,9 +91,10 @@ export default function Tools() {
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Bootstrap</p>
               </dt>
             </div>
+
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white hover:bg-black">
                   <img src="img/Tailwind_CSS_Logo.svg.png" alt="" />
 
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -94,19 +107,46 @@ export default function Tools() {
 
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
-                  <img src="img/github.png" alt="" />
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
+                  <img src="img/github.svg" alt="" />
 
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
                     <path stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
                 </div>
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-900">GitHub</p>
+              </dt><br />
+
+            </div>
+
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
+                  <img src="img/python-logo.png" alt="" />
+
+                  <svg class="h-6 w-6" xmlns="" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Python</p>
+              </dt>
+            </div>
+
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tran text-white">
+                  <img src="img/docker-logo.webp" alt="" />
+
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Docker</p>
               </dt>
             </div>
             <div class="relative">
               <dt>
-                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-yellow-300 text-white">
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-tran text-white">
                   <img src="img/awslogo.png" alt="" />
 
                   <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
@@ -116,9 +156,36 @@ export default function Tools() {
                 <p class="ml-16 text-lg leading-6 font-medium text-gray-900">AWS</p>
               </dt>
             </div>
-          </dl>
-        </div>
+
+            <div class="relative">
+              <dt>
+                <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-transparent text-white">
+                  <img src="img/rubyonrails.png" alt="" />
+
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true">
+                    <path stroke-linecap="round" stroke-linejoin="round"  />
+                  </svg>
+                </div>
+                <p class="ml-16 text-lg leading-6 font-medium text-gray-900">Ruby on Rails</p>
+              </dt><br />
+
+            </div>
       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
       <br /> <br />
         <center>
         <div class="bg-gray-50">
