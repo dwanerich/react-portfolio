@@ -5,9 +5,9 @@ const AnimatedNav = () => {
 
   <div id="myHeader" class="pl-6">
 
-<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class=" text-5xl font-bold hover:text-gray-200">dwane richards</h1></Link>
+<Link to={'/'}><h1 alt="Dwane Richards Software Engineer" class=" text-4xl font-bold hover:text-gray-200">Dwane Richards</h1></Link>
 
-  <Link to={'/'}> <h2 alt="Dwane Richards" class='text-l'> software engineer | creative director</h2> </Link>
+  <Link to={'/'}> <h2 alt="Dwane Richards" class=' text-xs text-yellow-600'> FRONTEND DEVELOPER | MUSIC PROGRAMMER</h2> </Link>
 
     <input type="checkbox" id="menyAvPaa" />
 
