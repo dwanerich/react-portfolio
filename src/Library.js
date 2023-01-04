@@ -1,25 +1,24 @@
-export default function Books() {
+export default function Library() {
 
   let readBooks = [
     "Learn to Program",
-    "Decoded",
-    "The Four Agreements",
     "Clean Code",
+    "The Four Agreements",
     "The Richest Man in Babylon",
+    "Decoded",
     "Tao Te Ching",
     "Your Erroneous Zones"
   ]
 
   let reading = [
-    "Eloquent JavaScript",
-    "Cracking the Coding Interview",
+    "Deep Work",
     "Zero to One"
   ]
   return (
     <div class="py-12 container">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="lg:text-center">
-        <p class="mt-2 text-5xl leading-8 font-extrabold tracking-tight text-gray-900 hover:text-gray-200">books</p>
+        <p class="mt-2 text-5xl leading-8 font-extrabold tracking-tight text-gray-900 hover:text-gray-200">library</p>
       </div>
 
       <div class='text-2xl'>
