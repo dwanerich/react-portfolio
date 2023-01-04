@@ -39,7 +39,7 @@ As a designer, developer and cross-functional collaborator, I've gained tremendo
 Interests: VR, ML, AI, Web3 & Blockchain Technology </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-            <a href="https://drive.google.com/file/d/1qawunH63iFM9ScON1a_Kb8VgwGNiiS9C/view?usp=share_link" target="_blank" class="flex w-full items-center justify-center rounded-md border border-transparent  text-black border-black px-8 py-3 text-base font-medium text-white hover:border-black hover:bg-transparent hover:text-black md:py-4 md:px-10 md:text-lg">resume</a>
+            <a href="https://drive.google.com/file/d/1qawunH63iFM9ScON1a_Kb8VgwGNiiS9C/view?usp=share_link" target="_blank" class="flex w-full items-center justify-center rounded-md border border-transparent  text-black border-black px-8 py-3 text-base font-medium text-white  hover:bg-yellow-300 hover:bg-transparent hover:text-black md:py-4 md:px-10 md:text-lg on:hover bg-yellow">resume</a>
             </div>
 
           </div>
@@ -48,7 +48,7 @@ Interests: VR, ML, AI, Web3 & Blockchain Technology </p>
     </div>
   </div>
   <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src="https://pbs.twimg.com/profile_images/1379251084670214144/HsAnrPgK_400x400.jpg" alt="dwane richards avatar" />
+    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src="img/dylan.jpg" alt="dwane richards avatar" />
   </div>
 
 

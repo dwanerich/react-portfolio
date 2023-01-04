@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 
 const AnimatedNav = () => {
-  function refreshPage() {
-    window.location.reload(false);
-  }
+
   return (
 
   <div id="myHeader" class=".w-nav-button">
@@ -23,11 +21,12 @@ const AnimatedNav = () => {
     <nav id="meny" class="navbar">
 
     <div className="links text-4xl text-right">
+
         <Link to={'/'}>Projects</Link> <br />
         <Link to={'/about'}>About</Link> <br />
         <Link to={'/library'}>Library</Link> <br />
         <a href='https://main.dwrvmr20l0ogs.amplifyapp.com/drums.html' onClick={'/'}>Interactive</a> <br />
-        <a href='https://open.spotify.com/artist/6d2X2fOrEI5adbahA0Avxf' target="_blank" onClick={'/'}>Sound</a> <br />
+        <a href='https://open.spotify.com/artist/6d2X2fOrEI5adbahA0Avxf' target="_blank" onClick={'/'}>Music</a> <br />
         <a href='https://main.dwrvmr20l0ogs.amplifyapp.com/visuals.html'>Visuals</a> <br />
         {/* <Link to={'/services'} onClick={'/services'}>Services</Link> <br /> */}
         {/* <Link to={'/create'}>Leave Comment</Link> <br /> */}
