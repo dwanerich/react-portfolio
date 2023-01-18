@@ -1,5 +1,5 @@
-import AllBlogs from './AllBlogs';
-import useFetch from './useFetch';
+// import AllBlogs from './AllBlogs';
+// import useFetch from './useFetch';
 
 
 /* This example requires Tailwind CSS v2.0+ */
@@ -71,8 +71,6 @@ export default function Tools() {
             {/* <p class="mt-2 text-base leading-7 text-gray-600">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</p> */}
           </div>
         </div>
-
-
 
 
         <div class="relative flex flex-col gap-6 sm:flex-row md:flex-col lg:flex-row">
@@ -193,12 +191,6 @@ export default function Tools() {
 {/* </div> */}
 
 
-
-
-
-
-
-
       <br /> <br />
         <center>
         <div class="bg-gray-50">
@@ -214,15 +206,15 @@ export default function Tools() {
       </p>
       <p class="mt-2 text-medium leading-8 tracking-tight text-gray-900 sm:text-xl">
 
-        Software Development | Creative Consultation | Music Production
+        Software Development | Music Production
       </p>
 
         </div>
 
         <div class="flex items-center justify-center bg-gray-50">
-      <a href="https://www.instagram.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="/img/ig-icon.png" width="50px" /></span></a>
-      <a href="https://www.twitter.com/dwanerich" target="_blank" class="p-3 hover:scale-75"><span ><img src="img/twitter_icon.png" width="50px" /></span></a>
-      <a href="https://www.linkedin.com/in/dwanerich" target="_blank" class="p-3 hover:scale-75"><span><img src="img/linkedin_icon.png" width="50px" /></span></a>
+      <a href="https://www.instagram.com/dwanerich" target="_blank" class="p-3 hover:scale-75" rel="noreferrer"><span><img src="/img/ig-icon.png" width="50px" alt='instagram icon' /></span></a>
+      <a href="https://www.twitter.com/dwanerich" target="_blank" class="p-3 hover:scale-75" rel="noreferrer"><span ><img src="img/twitter_icon.png" width="50px" alt='twitter icon'/></span></a>
+      <a href="https://www.linkedin.com/in/dwanerich" target="_blank" class="p-3 hover:scale-75" rel="noreferrer"><span><img src="img/linkedin_icon.png" width="50px" alt='linkedin icon'/></span></a>
 
     </div>
         </center>

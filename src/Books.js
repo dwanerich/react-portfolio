@@ -1,4 +1,4 @@
-export default function Library() {
+const Books = () => {
 
   let readBooks = [
     "Learn to Program",
@@ -11,6 +11,7 @@ export default function Library() {
   ]
 
   let reading = [
+    "How To Learn To Code",
     "Deep Work",
     "Zero to One"
   ]
@@ -61,3 +62,5 @@ export default function Library() {
     </div>
   )
 }
+
+export default Books;

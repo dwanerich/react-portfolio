@@ -1,13 +1,13 @@
-import Work from './Projects';
+import Work from './Work';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Form from './Form'
 import Details from './Details';
 import NotFound from './NotFound';
 import Tools from './Tools';
 import About from './About';
-import AnimatedNav from './AnimatedNav';
+import AnimatedNav from './Nav';
 import Services from './Services';
-import Library from './Library';
+import Books from './Books';
 import Resume from './Resume';
 
 
@@ -24,7 +24,7 @@ function App() {
 
         <Route exact path="/tools" element={<Tools/>}></Route>
         <Route exact path="/services" element={<Services/>}></Route>
-        <Route exact path="/library" element={<Library/>}></Route>
+        <Route exact path="/library" element={<Books/>}></Route>
 
 
         <Route path="/create" element={<Form/>}></Route>
