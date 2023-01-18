@@ -9,6 +9,9 @@ import AnimatedNav from './Nav';
 import Services from './Services';
 import Books from './Books';
 import Resume from './Resume';
+import './input.css'
+import './index.css'
+
 
 
 function App() {
