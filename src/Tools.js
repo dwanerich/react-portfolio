@@ -195,14 +195,16 @@ export default function Tools() {
         <center>
         <div class="bg-gray-50">
         <p class="mt-2 text-xl leading-8 tracking-tight text-gray-900 sm:text-medium">
-                Let's Work Together, Get in touch!
+                {/* Let's Talk */}
                 </p>
 
         <br />
 
 
-      <p class="mt-2 text-medium leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl hover:text-gray-300">
-        <a href="mailto:hi@dwanerich.com">hi@dwanerich.com</a>
+      <p class="mt-2 text-medium leading-8 font-extrabold tracking-tight text-gray-900 sm:text-xl hover:text-green-500">
+          < a href="mailto:dwanerich@gmail.com" target="_blank" rel="noreferrer">LET'S TALK</a>
+
+
       </p>
       <p class="mt-2 text-medium leading-8 tracking-tight text-gray-900 sm:text-xl">
 
