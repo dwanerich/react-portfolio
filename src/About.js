@@ -24,19 +24,19 @@ const About = () => {
       <main class="mx-auto mt-10 max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
         <div class="sm:text-center lg:text-left">
           <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl md:text-6xl">
-            <span class="block xl:inline">Hello World 👋</span>
+            <span class="block xl:inline">About Dwane</span>
             {/* <span class="block text-indigo-600 xl:inline">online business</span> */}
           </h1>
-          <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">Dwane is a Software Developer experienced in Healthcare Information Technology, Entertainment and B2B SaaS.
+          <p class="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0">Early career Software Developer experienced in Healthcare, Entertainment and DevOps(B2B SaaS).
 
-A relentlessly curious and critical thinker continuously exploring the different ways to leverage technology to architect solutions for users and businesses.
+Driven by curiosity, critical thinking and exploring the different ways to leverage technology to architect solutions for users and businesses.
 
-As a designer, developer and cross-functional collaborator, I've gained tremendous value through various experiences by adopting a growth mindset and sharing knowledge with others. <br /><br />
+As a designer, developer and cross-functional collaborator, by adopting a growth mindset with a tight feedback loop, my solution iteration process strengthens. Failing fast; failing forward.
 
-Interests: VR, ML, AI, Web3 & Blockchain Technology </p>
+Interests: #VR #AR #ML #AI #Blockchain </p>
           <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
             <div class="rounded-md shadow">
-            <a href="https://drive.google.com/file/d/1qawunH63iFM9ScON1a_Kb8VgwGNiiS9C/view?usp=share_link" target="_blank" class="flex w-full items-center justify-center rounded-md border border-transparent  text-black border-black px-8 py-3 text-base font-medium text-white  hover:bg-yellow-300 hover:bg-transparent hover:text-black md:py-4 md:px-10 md:text-lg on:hover bg-yellow">resume</a>
+            <a href="https://drive.google.com/file/d/1j4Iwu_951aeAUOTx32rZ99zzhjNzYFmU/view?usp=sharing" target="_blank" class="flex w-full items-center justify-center rounded-md border border-transparent  text-black border-black px-8 py-3 text-base font-medium text-white  hover:bg-yellow-300 hover:bg-transparent hover:text-black md:py-4 md:px-10 md:text-lg on:hover bg-yellow">resume</a>
             </div>
 
           </div>
@@ -45,7 +45,7 @@ Interests: VR, ML, AI, Web3 & Blockchain Technology </p>
     </div>
   </div>
   <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-    <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src="img/dylan.jpg" alt="dwane richards avatar" />
+    {/* <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:h-full lg:w-full" src="img/dylan.jpg" alt="dwane richards avatar" /> */}
   </div>
 </div>
    );
